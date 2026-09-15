@@ -1,49 +1,35 @@
 <footer class="border-t border-border font-mono text-sm">
-  <div class="max-w-6xl mx-auto px-5 py-10 flex flex-wrap gap-10 justify-between">
-    <div>
-      <a href="/" class="text-text font-semibold">cookie_</a>
-      <p class="mt-2 text-text-dim max-w-xs">A Jekyll and Tailwind CSS theme for landing pages, blogs and docs.</p>
+    <div class="max-w-6xl mx-auto px-5 py-10 flex flex-wrap gap-10 justify-between">
+        <div>
+            <a href="/" class="text-text font-semibold">Amdev</a>
+            <p class="mt-2 text-text-dim max-w-xs">Настройка и внедрение CRM-систем для бизнеса. Подбираем, настраиваем и сопровождаем.</p>
+        </div>
+        <div>
+            <h2 class="text-text-dim mb-3">компания</h2>
+            <ul class="space-y-1">
+                <li><a class="text-text-dim hover:text-text" href="/services">услуги</a></li>
+                <li><a class="text-text-dim hover:text-text" href="/contact">контакты</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2 class="text-text-dim mb-3">документы</h2>
+            <ul class="space-y-1">
+                <li><a class="text-text-dim hover:text-text" href="/terms">условия</a></li>
+                <li><a class="text-text-dim hover:text-text" href="/privacy-policy">конфиденциальность</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2 class="text-text-dim mb-3">связь</h2>
+            <ul class="space-y-1">
+                <li><a class="text-text-dim hover:text-text" href="mailto:info@amdev.ru">info@amdev.ru</a></li>
+                <li><a class="text-text-dim hover:text-text" href="tel:+79990000000">+7 (999) 000-00-00</a></li>
+            </ul>
+        </div>
     </div>
-    <div>
-      <h2 class="text-text-dim mb-3">site</h2>
-      <ul class="space-y-1">
-        <li><a class="text-text-dim hover:text-text" href="/about">about</a></li>
-        <li><a class="text-text-dim hover:text-text" href="/blog">blog</a></li>
-        <li><a class="text-text-dim hover:text-text" href="/contact-us">contact</a></li>
-      </ul>
-    </div>
-    <div>
-      <h2 class="text-text-dim mb-3">legal</h2>
-      <ul class="space-y-1">
-        <li><a class="text-text-dim hover:text-text" href="/terms">terms</a></li>
-        <li><a class="text-text-dim hover:text-text" href="/privacy-policy">privacy</a></li>
-      </ul>
-    </div>
-    <div>
-      <h2 class="text-text-dim mb-3">links</h2>
-      <ul class="space-y-1">
-        <li><a class="text-text-dim hover:text-text" href="https://github.com/abhinavs/cookie">github</a></li>
-        <li><a class="text-text-dim hover:text-text" href="https://twitter.com/abhinav">twitter</a></li>
-        <li><a class="text-text-dim hover:text-text" href="https://www.abhinav.co">abhinav.co</a></li>
-      </ul>
-    </div>
-  </div>
 
-  <div class="border-t border-border">
-    <div class="max-w-6xl mx-auto px-5 py-4 text-xs text-text-dim">
-      &copy; {{ site.time | date: "%Y" }}
-      <a href="https://www.abhinav.co" class="hover:text-text">Abhinav Saxena</a>
-      &middot; MIT licensed
-      &middot; <a href="https://github.com/abhinavs/cookie" class="hover:text-text">source</a>
+    <div class="border-t border-border">
+        <div class="max-w-6xl mx-auto px-5 py-4 text-xs text-text-dim">
+            &copy; {{ site.time | date: "%Y" }} Amdev. Все права защищены.
+        </div>
     </div>
-  </div>
 </footer>
-
-{%- if site.soopr -%}
-{%- if site.soopr.publish_token and jekyll.environment == "production" -%}
-<script async='' data-soopr-token="{{site.soopr.publish_token}}" defer='defer' src="https://sdk.soopr.co/soopr.js">
-</script>
-{%- else -%}
-<script async defer src="https://sdk.soopr.co/soopr.js"></script>
-{%- endif -%}
-{%- endif -%}

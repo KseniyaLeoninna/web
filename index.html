@@ -2,215 +2,128 @@
 layout: home
 ---
 
-<section class="px-5 pt-20 pb-16 max-w-6xl mx-auto">
-  <div class="grid lg:grid-cols-[1fr_auto] gap-10 items-center">
-    <div>
-      <h1 class="font-sans text-4xl sm:text-5xl font-semibold text-text leading-tight max-w-3xl">
-        A landing page, blog, and docs site that ships in minutes.
-      </h1>
-      <p class="mt-5 text-text-dim text-lg max-w-xl">
-        Cookie is a Jekyll and Tailwind CSS theme. Clone it, run one command, and you have
-        a fast static site with a landing page, an integrated blog, and space for real documentation.
-      </p>
+<section class="px-5 pt-24 pb-20 max-w-6xl mx-auto">
+    <div class="grid lg:grid-cols-[1fr_auto] gap-10 items-center">
+        <div>
+            <h1 class="font-sans text-4xl sm:text-5xl font-semibold text-text leading-tight max-w-3xl">
+                Настройка CRM-системы для вашего бизнеса.
+            </h1>
+            <p class="mt-6 text-text-dim text-lg leading-relaxed max-w-xl">
+                Подбираем, внедряем и сопровождаем CRM под конкретные задачи вашей компании. От анализа до обучения сотрудников.
+            </p>
 
-      <div class="mt-8 border border-border bg-surface font-mono text-sm max-w-2xl overflow-hidden shadow-lg shadow-black/10">
-        <div class="flex items-center justify-between gap-3 px-4 py-2.5 border-b border-border">
-          <div class="flex items-center gap-3">
-            <div class="flex gap-1.5">
-              <span class="w-2.5 h-2.5 rounded-full bg-border"></span>
-              <span class="w-2.5 h-2.5 rounded-full bg-border"></span>
-              <span class="w-2.5 h-2.5 rounded-full bg-border"></span>
+            <div class="mt-8 flex items-center gap-4 text-base">
+                <a href="/contact" class="btn-cta btn-pulse">Оставить заявку</a>
+                <a href="/services" class="text-text-dim hover:text-text">Наши услуги</a>
             </div>
-            <span class="text-text-dim text-xs">terminal</span>
-          </div>
-          <button type="button" onclick="copyCmd(this)" class="text-text-dim hover:text-text text-xs flex items-center gap-1.5" aria-label="Copy commands">
-            <i class="ph-copy"></i><span>copy</span>
-          </button>
         </div>
-        <div class="px-4 py-4 space-y-1 overflow-x-auto">
-          <p><span class="text-accent">$</span> <span class="text-text">git clone https://github.com/abhinavs/cookie.git</span></p>
-          <p><span class="text-accent">$</span> <span class="text-text">cd cookie &amp;&amp; bin/bootstrap</span></p>
-          <p><span class="text-accent">$</span> <span class="text-text">bin/start</span></p>
-          <p class="text-text-dim"># site running at http://127.0.0.1:4061<span class="animate-pulse">_</span></p>
+    </div>
+</section>
+
+<!-- Задачи, которые мы закрываем -->
+<section class="py-20 border-t border-border">
+    <div class="max-w-6xl mx-auto px-5">
+        <h2 class="font-sans text-3xl sm:text-4xl font-semibold text-text mb-5 leading-tight">
+            Задачи, которые мы закрываем
+        </h2>
+        <p class="text-text-dim text-lg max-w-2xl mb-14 leading-relaxed">
+            Внедрение CRM начинается с анализа ваших процессов. Мы находим узкие места и предлагаем решения, которые экономят время и увеличивают выручку.
+        </p>
+
+        <div class="grid sm:grid-cols-2 gap-6">
+
+            <div class="task-card">
+                <p class="task-problem">Заявки с сайта и соцсетей обрабатываются с задержкой, часть клиентов не дожидается ответа</p>
+                <p class="task-solution">Все обращения поступают в единое окно, контроль времени ответа настроен автоматически</p>
+            </div>
+
+            <div class="task-card">
+                <p class="task-problem">Клиентская база хранится у менеджеров, при увольнении часть контактов теряется</p>
+                <p class="task-solution">Контакты, переписка и история сделок сохраняются в системе, доступ разграничен по ролям</p>
+            </div>
+
+            <div class="task-card">
+                <p class="task-problem">Отчётность по продажам формируется вручную, данные могут быть неточными</p>
+                <p class="task-solution">Воронка, план и выручка рассчитываются автоматически, отчёты доступны в один клик</p>
+            </div>
+
+            <div class="task-card">
+                <p class="task-problem">Отсутствует понимание, какие каналы рекламы приносят прибыль</p>
+                <p class="task-solution">Источник фиксируется в каждой сделке, отслеживается полный путь клиента от обращения до оплаты</p>
+            </div>
+
+            <div class="task-card">
+                <p class="task-problem">Договорённости с клиентами не фиксируются, часть сделок остаётся без продолжения</p>
+                <p class="task-solution">Для каждой сделки назначается следующий шаг и ответственный сотрудник</p>
+            </div>
+
+            <div class="task-card">
+                <p class="task-problem">Менеджеры работают по разным стандартам, качество обслуживания отличается</p>
+                <p class="task-solution">Этапы воронки и регламенты работы прописаны, все сотрудники следуют единому стандарту</p>
+            </div>
+
         </div>
-      </div>
 
-      <div class="mt-6 flex items-center gap-4 text-sm">
-        <a href="https://github.com/abhinavs/cookie/fork" class="border border-border px-4 py-2 text-text hover:border-accent hover:text-accent">Fork on GitHub</a>
-        <a href="/docs" class="text-text-dim hover:text-text">Read the docs</a>
-      </div>
-    </div>
-
-    <div class="hidden lg:flex flex-col border border-border bg-surface font-mono text-sm overflow-hidden shadow-lg shadow-black/10 w-64 h-96 shrink-0" aria-hidden="true">
-      <div class="flex items-center gap-3 px-4 py-2.5 border-b border-border">
-        <div class="flex gap-1.5">
-          <span class="w-2.5 h-2.5 rounded-full bg-border"></span>
-          <span class="w-2.5 h-2.5 rounded-full bg-border"></span>
-          <span class="w-2.5 h-2.5 rounded-full bg-border"></span>
+        <div class="mt-12 text-center">
+            <a href="/contact" class="btn-cta">Обсудить вашу задачу</a>
         </div>
-        <span class="text-text-dim text-xs">cookie.gif</span>
-      </div>
-      <div class="flex-1 flex items-center justify-center px-4 py-5">
-        <pre id="cookie-art" class="text-text-dim text-lg leading-tight"></pre>
-      </div>
     </div>
-  </div>
 </section>
 
-<script>
-  function copyCmd(btn) {
-    var cmds = "git clone https://github.com/abhinavs/cookie.git\ncd cookie && bin/bootstrap\nbin/start";
-    navigator.clipboard.writeText(cmds);
-    btn.innerHTML = '<i class="ph-check-bold"></i><span>copied</span>';
-    setTimeout(function () {
-      btn.innerHTML = '<i class="ph-copy"></i><span>copy</span>';
-    }, 1500);
-  }
-
-  (function () {
-    var el = document.getElementById("cookie-art");
-    if (!el) return;
-    var chip = '<span class="text-accent">o</span>';
-    var frames = [
-      "     .--------.\n    ( O  O  O  )\n    (  O    O  )\n    ( O    O   )\n     '--------'",
-      "     .---||---.\n    ( O  || O  )\n    (  O || O  )\n    ( O  ||   O )\n     '---||---'",
-      "  .------.   .------.\n ( O  O   ) (  O  O  )\n (   O    ) (  O     )\n ( O      ) (     O  )\n  '------'   '------'",
-      " .----.   .     .   .----.\n( O  O)     .         (O  O)\n(  O  )   .   .   .   ( O  )\n '----'     .     .   '----'\n     .   .       .    .",
-      "  .------.   .------.\n ( O  O   ) (  O  O  )\n (   O    ) (  O     )\n ( O      ) (     O  )\n  '------'   '------'",
-      "     .--------.\n    ( O  O  O  )\n    (  O    O  )\n    ( O    O   )\n     '--------'"
-    ].map(function (f) {
-      return f.replace(/O/g, chip);
-    });
-    var i = 0;
-    el.innerHTML = frames[0];
-    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
-    setInterval(function () {
-      i = (i + 1) % frames.length;
-      el.innerHTML = frames[i];
-    }, 650);
-  })();
-</script>
-
-<section class="py-10 border-t border-border bg-bg-alt">
-  <div class="max-w-6xl mx-auto px-5">
-    <p class="text-xs text-text-dim mb-4">used by</p>
-    <ul class="flex flex-wrap gap-x-8 gap-y-2 font-mono text-sm text-text-dim">
-      <li><a class="hover:text-text" href="https://www.apicblocks.com">APIC Blocks</a></li>
-      <li><a class="hover:text-text" href="https://www.soopr.co">Soopr</a></li>
-      <li><a class="hover:text-text" href="https://www.annexr.com">Annexr</a></li>
-      <li><a class="hover:text-text" href="https://www.apicagent.com">APIC Agent</a></li>
-      <li><a class="hover:text-text" href="https://www.chhotisikahani.com">Chhoti Si Kahani</a></li>
-    </ul>
-  </div>
-</section>
-
-<section class="py-16 border-t border-border">
-  <div class="max-w-6xl mx-auto px-5">
-    <h2 class="font-sans text-2xl font-semibold text-text mb-8">What you get</h2>
-    <dl class="grid sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-8 text-sm">
-      <div class="border-t border-border pt-4">
-        <dt class="font-sans font-medium text-text">Landing page + blog + docs</dt>
-        <dd class="mt-2 text-text-dim">One site for your marketing page, a Markdown blog, and a documentation section, all from the same theme.</dd>
-      </div>
-      <div class="border-t border-border pt-4">
-        <dt class="font-sans font-medium text-text">Tailwind CSS v4</dt>
-        <dd class="mt-2 text-text-dim">CSS-native theme config, no build step to configure beyond what's already wired up.</dd>
-      </div>
-      <div class="border-t border-border pt-4">
-        <dt class="font-sans font-medium text-text">LLM friendly</dt>
-        <dd class="mt-2 text-text-dim">Plain Markdown content and clean structure that both humans and coding assistants can navigate.</dd>
-      </div>
-      <div class="border-t border-border pt-4">
-        <dt class="font-sans font-medium text-text">Fast, static output</dt>
-        <dd class="mt-2 text-text-dim">Jekyll builds everything to static HTML, so hosting is cheap and pages load instantly.</dd>
-      </div>
-      <div class="border-t border-border pt-4">
-        <dt class="font-sans font-medium text-text">SEO and RSS built in</dt>
-        <dd class="mt-2 text-text-dim">Jekyll SEO Tag and Jekyll Feed are wired up out of the box.</dd>
-      </div>
-      <div class="border-t border-border pt-4">
-        <dt class="font-sans font-medium text-text">Deploy anywhere</dt>
-        <dd class="mt-2 text-text-dim">One-click deploy on Netlify, or push the static output to any host you like.</dd>
-      </div>
-    </dl>
-  </div>
-</section>
-
-<section class="py-16 border-t border-border bg-bg-alt">
-  <div class="max-w-6xl mx-auto px-5">
-    <div class="flex items-baseline justify-between mb-8 gap-4">
-      <h2 class="font-sans text-2xl font-semibold text-text">A folder you already understand</h2>
-      <p class="text-text-dim text-sm hidden sm:block">no dashboard or CMS needed</p>
-    </div>
-    <div class="grid lg:grid-cols-2 gap-10 items-start">
-      <p class="text-text-dim max-w-md">
-        Every page and post is a plain Markdown file, sitting in a folder that matches what it does.
-        Add a file, and Jekyll builds it into the site.
-      </p>
-      <div class="border border-border bg-surface font-mono text-sm overflow-hidden shadow-lg shadow-black/10 max-w-md w-full lg:ml-auto">
-        <div class="flex items-center gap-3 px-4 py-2.5 border-b border-border">
-          <div class="flex gap-1.5">
-            <span class="w-2.5 h-2.5 rounded-full bg-border"></span>
-            <span class="w-2.5 h-2.5 rounded-full bg-border"></span>
-            <span class="w-2.5 h-2.5 rounded-full bg-border"></span>
-          </div>
-          <span class="text-text-dim text-xs">cookie/</span>
+<!-- Услуги: bento grid -->
+<section class="py-20 border-t border-border bg-bg-alt">
+    <div class="max-w-6xl mx-auto px-5">
+        <h2 class="font-sans text-3xl font-semibold text-text mb-10">Что мы делаем</h2>
+        <div class="bento-grid">
+            <div class="bento-item large">
+                <h3 class="font-sans text-xl font-semibold text-text mb-3">Подбор и внедрение CRM</h3>
+                <p class="text-text-dim leading-relaxed">Анализируем бизнес-процессы, подбираем систему под задачи и настраиваем её под ваши воронки, поля и автоматизации.</p>
+            </div>
+            <div class="bento-item">
+                <h3 class="font-sans text-lg font-semibold text-text mb-2">Интеграции</h3>
+                <p class="text-text-dim leading-relaxed">Сайт, почта, телефония, 1С.</p>
+            </div>
+            <div class="bento-item">
+                <h3 class="font-sans text-lg font-semibold text-text mb-2">Обучение</h3>
+                <p class="text-text-dim leading-relaxed">Обучаем команду и готовим инструкции.</p>
+            </div>
+            <div class="bento-item wide">
+                <h3 class="font-sans text-lg font-semibold text-text mb-2">Поддержка</h3>
+                <p class="text-text-dim leading-relaxed">Сопровождаем после запуска: доработки, обновления, консультации.</p>
+            </div>
         </div>
-        <pre class="px-4 py-4 text-text-dim leading-relaxed overflow-x-auto">├── <span class="text-text">index.html</span>    homepage
-├── <span class="text-text">_pages/</span>       about, contact, terms
-├── <span class="text-text">_posts/</span>       blog, in Markdown
-├── <span class="text-text">_docs/</span>        documentation
-└── <span class="text-text">_config.yml</span>   site settings</pre>
-      </div>
     </div>
-  </div>
 </section>
 
-<section class="py-16 border-t border-border">
-  <div class="max-w-6xl mx-auto px-5">
-    <div class="flex items-baseline justify-between mb-4 gap-4">
-      <h2 class="font-sans text-2xl font-semibold text-text">Docs, out of the box</h2>
-      <a href="/docs" class="text-sm text-text-dim hover:text-text shrink-0">Browse all &rarr;</a>
+<!-- FAQ -->
+<section class="py-20 border-t border-border">
+    <div class="max-w-6xl mx-auto px-5">
+        <h2 class="font-sans text-3xl font-semibold text-text mb-10">Частые вопросы</h2>
+        <div class="grid sm:grid-cols-2 gap-x-12 gap-y-10">
+            <div>
+                <p class="font-sans text-lg font-medium text-text">Сколько стоит внедрение CRM?</p>
+                <p class="mt-3 text-text-dim leading-relaxed">Стоимость зависит от масштаба бизнеса и выбранной системы. Оставьте заявку — рассчитаем индивидуально.</p>
+            </div>
+            <div>
+                <p class="font-sans text-lg font-medium text-text">Сколько времени занимает настройка?</p>
+                <p class="mt-3 text-text-dim leading-relaxed">В среднем от 2 до 6 недель в зависимости от сложности задач и количества интеграций.</p>
+            </div>
+            <div>
+                <p class="font-sans text-lg font-medium text-text">Работаете ли вы с малым бизнесом?</p>
+                <p class="mt-3 text-text-dim leading-relaxed">Да, у нас есть решения как для небольших компаний, так и для крупного бизнеса.</p>
+            </div>
+            <div>
+                <p class="font-sans text-lg font-medium text-text">Что входит в поддержку?</p>
+                <p class="mt-3 text-text-dim leading-relaxed">Консультации, доработки, обновления системы и обучение новых сотрудников.</p>
+            </div>
+        </div>
     </div>
-    <p class="text-text-dim max-w-xl mb-8">
-      A starter set of guides for setting up, customizing, and shipping a Cookie site, ready to read or edit from day one.
-    </p>
-    {%- assign home_docs = site.docs | sort: "order" -%}
-    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-6 text-sm font-mono">
-      {%- for doc in home_docs -%}
-      <a href="{{ doc.url | relative_url }}" class="block border-t border-border pt-4 text-text hover:text-accent">{{ doc.title }}</a>
-      {%- endfor -%}
-    </div>
-  </div>
 </section>
 
-<section class="py-16 border-t border-border bg-bg-alt">
-  <div class="max-w-6xl mx-auto px-5">
-    <h2 class="font-sans text-2xl font-semibold text-text mb-8">FAQ</h2>
-    <div class="grid sm:grid-cols-2 gap-x-12 gap-y-8">
-      <div>
-        <p class="font-sans font-medium text-text">Do I need to know Tailwind CSS?</p>
-        <p class="mt-2 text-text-dim">No. The theme ships with a working design. You only need Tailwind if you want to change colors, spacing, or add new components.</p>
-      </div>
-      <div>
-        <p class="font-sans font-medium text-text">Can Cookie replace my docs site?</p>
-        <p class="mt-2 text-text-dim">Yes. Pages and posts are plain Markdown collections, so a docs folder is just another collection with its own layout.</p>
-      </div>
-      <div>
-        <p class="font-sans font-medium text-text">How do I customize the landing page?</p>
-        <p class="mt-2 text-text-dim">Edit <code>index.html</code> in the project root. Other pages live in <code>_pages</code> and blog posts in <code>_posts</code>.</p>
-      </div>
-      <div>
-        <p class="font-sans font-medium text-text">Is it free?</p>
-        <p class="mt-2 text-text-dim">Cookie is MIT licensed and free to use. It's built and maintained by <a class="text-accent" href="https://www.abhinav.co">Abhinav Saxena</a>.</p>
-      </div>
+<!-- Финальный призыв -->
+<section class="py-20 border-t border-border bg-bg-alt">
+    <div class="max-w-6xl mx-auto px-5 flex flex-wrap items-center justify-between gap-6">
+        <p class="font-sans text-2xl font-semibold text-text">Готовы настроить CRM для своего бизнеса?</p>
+        <a href="/contact" class="btn-cta">Оставить заявку</a>
     </div>
-  </div>
-</section>
-
-<section class="py-16 border-t border-border">
-  <div class="max-w-6xl mx-auto px-5 flex flex-wrap items-center justify-between gap-6">
-    <p class="font-sans text-xl font-semibold text-text">Ready to ship your site?</p>
-    <a href="https://github.com/abhinavs/cookie/fork" class="border border-accent text-accent px-5 py-2 text-sm hover:bg-accent hover:text-accent-text">Fork on GitHub</a>
-  </div>
 </section>
